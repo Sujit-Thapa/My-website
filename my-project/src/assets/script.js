@@ -159,3 +159,19 @@ contactForm.addEventListener('submit', event => {
             alert('Error sending message. Please try again later.');
         });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.navbar a');
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href').slice(1);
+            const targetSection = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetSection.offsetTop - 60, // Offset for sticky navbar
+                behavior: 'smooth'
+            });
+        });
+    });
+});
