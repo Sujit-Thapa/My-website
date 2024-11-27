@@ -1,13 +1,18 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header />
+      <About />
+      <Projects />
+      <Contact />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
