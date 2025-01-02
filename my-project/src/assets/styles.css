@@ -1,0 +1,154 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #111;
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+}
+.header .logo {
+    width: 80px;
+    border-radius: 50%;
+}
+.header .name {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #fff;
+}
+.header .tagline {
+    font-style: italic;
+    color: #ccc;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #222;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar ul li a:hover {
+    color: #ccc;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.section p {
+    color: #ccc;
+}
+
+/* Portfolio Section */
+.portfolio-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    background-color: #111;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 250px;
+}
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+.portfolio-item h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+.portfolio-item p {
+    color: #ccc;
+}
+
+/* Contact Section */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #333;
+}
+.footer .social-media {
+    margin-bottom: 10px;
+}
+.footer .social-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+.footer .social-link:hover {
+    color: #ccc;
+}
+.footer p {
+    color: #ccc;
+}
