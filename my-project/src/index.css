@@ -4,3 +4,13 @@
 
 
 
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
